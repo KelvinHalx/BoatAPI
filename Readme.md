@@ -20,7 +20,7 @@ $ python3
 >> db.create_all()
 >> exit()
 ```
-## Run Server (http://localhst:5000)
+## Run Server (http://127.0.0.1:5000/)
 ```bash
 
 python app.py
