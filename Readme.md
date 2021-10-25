@@ -9,26 +9,27 @@
 $ python3 -m venv venv
 $ . venv/bin/activate
 ```
+## Install dependencies
 ```bash
-# Install dependencies
 $ pip3 install -r requirments.txt
 ```
+## Create DB
 ```python
-# Create DB
 $ python3
 >> from App import db
 >> db.create_all()
 >> exit()
 ```
+## Run Server (http://localhst:5000)
 ```bash
-# Run Server (http://localhst:5000)
+
 python app.py
 ```
 
 ## Endpoints
 
-* GET     /product
-* GET     /product/:id
-* POST    /product
-* PUT     /product/:id
-* DELETE  /product/:id
+* GET     /boat
+* GET     /boat/:id
+* POST    /boat
+* PUT     /boat/:id
+* DELETE  /boat/:id
