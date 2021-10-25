@@ -13,7 +13,7 @@ $ . venv/bin/activate
 $ pip3 install -r requirments.txt
 
 # Create DB
-$ python
+$ python3
 >> from App import db
 >> db.create_all()
 >> exit()
