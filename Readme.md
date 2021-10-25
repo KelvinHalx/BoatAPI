@@ -8,16 +8,19 @@
 # Create & Activate venv
 $ python3 -m venv venv
 $ . venv/bin/activate
-
+```
+```bash
 # Install dependencies
 $ pip3 install -r requirments.txt
-
+```
+```python
 # Create DB
 $ python3
 >> from App import db
 >> db.create_all()
 >> exit()
-
+```
+```bash
 # Run Server (http://localhst:5000)
 python app.py
 ```
